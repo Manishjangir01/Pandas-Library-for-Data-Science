@@ -49,3 +49,7 @@ jupyter notebook
 - Data science beginners
 - Internship tasks
 - Interview preparation
+
+## License
+
+MIT, see [LICENSE](LICENSE).
