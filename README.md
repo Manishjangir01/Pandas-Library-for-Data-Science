@@ -1,38 +1,51 @@
-# Pandas-Library-for-Data-Science
-Complete Pandas tutorial with data cleaning, filtering, aggregation and EDA
 # Pandas Library for Data Science
 
-## 📌 Overview
-This project contains a complete hands-on guide to the Pandas library
-used for data analysis and data manipulation in Python.
+A hands-on guide to the Pandas library for data analysis and data
+manipulation in Python, worked through on a car-sales dataset (428 rows,
+15 columns).
 
-## 📘 Topics Covered
-- Importing Pandas & CSV Files
-- DataFrame Inspection (head, tail, shape, info)
-- Data Types & Column Analysis
-- Handling Missing Values (dropna, fillna)
-- Data Filtering & Selection (loc, iloc, conditions)
-- String Operations
-- Data Cleaning (removing $, changing datatypes)
-- Renaming & Dropping Columns
-- Sorting Data
-- Aggregation & GroupBy Operations
-- Applying Functions (apply, map)
-- Merging & Concatenation
-- Pivot Tables & Transpose
-- Working with Dates
-- Exporting Data to CSV
+## Topics covered
 
-## 🛠 Tools Used
-- Python
-- Pandas
-- Jupyter Notebook
+- Importing Pandas and reading CSV files
+- DataFrame inspection (`head`, `tail`, `shape`, `info`, `describe`)
+- Data types and column analysis (`dtypes`, `nunique`)
+- Handling missing values (`isna`, `dropna`, `fillna`)
+- Selecting and filtering data (`loc`, `iloc`, conditions, string matching)
+- Data cleaning (removing `$` signs, changing data types)
+- Renaming and dropping columns
+- Sorting data
+- Aggregation and `groupby`
+- Applying functions (`apply`, `map`)
+- Merging and concatenation
+- Pivot tables and transpose
+- Working with dates
+- Exporting data to CSV
 
-## 📂 File Included
-- Panda’s library .pdf
+## Files
 
-## 🎯 Use Case
-- BCA / BSc / MCA Students
-- Data Science Beginners
-- Internship Tasks
-- Interview Preparation
+| File                 | Description                                              |
+|----------------------|----------------------------------------------------------|
+| `Panda’s library .pdf` | Printed Jupyter notebook (16 pages) with code and outputs |
+| `requirements.txt`   | Python packages needed to run the examples               |
+
+## Datasets
+
+The notebook reads these CSV files, which are **not stored in this
+repository**: `cars_data.csv`, `cars_data_row1.csv`, `cars_data_row2.csv`,
+`cars_data_col1.csv`, `cars_data_col2.csv`, `cars_data_merge1.csv` and
+`cars_data_merge2.csv`. To run the code yourself, place your own copies in the
+same folder as the notebook.
+
+## How to run
+
+```bash
+pip install -r requirements.txt
+jupyter notebook
+```
+
+## Who is this for
+
+- BCA / BSc / MCA students
+- Data science beginners
+- Internship tasks
+- Interview preparation
